@@ -1,7 +1,8 @@
 const express = require('express');
 const dotenv = require('dotenv');
-//const { request } = require('express');
+
 dotenv.config();
+
 const app = new express();
 
 const getNLUInstance = ()=> {
